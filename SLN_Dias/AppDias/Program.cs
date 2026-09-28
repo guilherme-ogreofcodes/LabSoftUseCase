@@ -24,7 +24,7 @@ class Program
         string dataFimStr = Console.ReadLine() ?? "";
         DateTime dataFim = DateTime.Parse(dataFimStr);
 
-        Tarefa tarefa = new Tarefa(nome, funcionario, dataInicio, dataFim);.
+        Tarefa tarefa = new Tarefa(nome, funcionario, dataInicio, dataFim);
 
         Console.WriteLine("\n--- RESUMO DA TAREFA ---");
         Console.WriteLine($"Tarefa: {tarefa.Nome}");
